@@ -1,0 +1,139 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+.altura-a-b{
+    padding:80px 0;
+}
+
+.logotipo{
+    width:150px;
+    padding: 10px 0;
+}
+
+.sps--abv{
+    background-color: transparent;
+    color: #000;
+}
+.sps--blw{
+    background-color: #333;
+    color: #fff;
+}
+
+nav.sps--abv .logotipo{
+    width:180px;
+}
+
+.icono-redes-header{
+    height:25px;
+    margin:10px 5px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20%;
+    bottom: 1.25rem;
+    right: 40%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+.btn-light {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.carousel-inner{
+    max-height: 600px !important;
+}
+
+.banner-video{
+    background-image:url("./img/images/home/video-bg.jpg");
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-video .play {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+/* somos*/
+.cabezera-somos{
+    background-image: url(/img/images/somos/slider-interior.jpg);
+    padding: 150px 0 100px 0;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    margin-bottom:30px ;
+}
+
+.somos-banner:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.somos-banner{
+    background-image: url(/img/images/somos/somos-equipo.jpg);
+    padding: 150px 0 100px 0;
+    text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#somos-banner-text {
+	color: #fff;
+	position: relative
+}
+
+
+footer{
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer .logotipo-footer{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+#svg {
+    height:100px !important;
+}
+
+@media (max-width:576px){
+
+    .image-1{
+        margin-top: 30px;
+    }
+
+}
